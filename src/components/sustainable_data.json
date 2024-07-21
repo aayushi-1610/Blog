@@ -1,0 +1,156 @@
+{
+    "countries": [
+      {
+        "country": "Germany",
+        "latitude": 51.1657,
+        "longitude": 10.4515,
+        "financial_contribution": {
+          "amount": "15 billion USD",
+          "year": 2023
+        },
+        "policy_initiatives": [
+          {
+            "initiative": "National Sustainable Development Strategy",
+            "description": "Germany's comprehensive policy framework to achieve the SDGs.",
+            "impact": "Significant reduction in carbon emissions and increased renewable energy use."
+          }
+        ],
+        "sdg_progress": {
+          "SDG 1": "No Poverty",
+          "SDG 2": "Zero Hunger",
+          "SDG 3": "Good Health and Well-being",
+          "details": [
+            {
+              "sdg": "SDG 1",
+              "progress": "Poverty rate reduced by 5% over the past year."
+            },
+            {
+              "sdg": "SDG 2",
+              "progress": "Improved agricultural productivity through sustainable practices."
+            }
+          ]
+        }
+      },
+      {
+        "country": "Kenya",
+        "latitude": -1.286389,
+        "longitude": 36.817223,
+        "financial_contribution": {
+          "amount": "2 billion USD",
+          "year": 2023
+        },
+        "policy_initiatives": [
+          {
+            "initiative": "Big Four Agenda",
+            "description": "Kenya's strategic initiatives focusing on affordable housing, manufacturing, universal healthcare, and food security.",
+            "impact": "Enhanced food security and improved healthcare access."
+          }
+        ],
+        "sdg_progress": {
+          "SDG 1": "No Poverty",
+          "SDG 2": "Zero Hunger",
+          "SDG 3": "Good Health and Well-being",
+          "details": [
+            {
+              "sdg": "SDG 1",
+              "progress": "Increased social protection programs for vulnerable populations."
+            },
+            {
+              "sdg": "SDG 2",
+              "progress": "Significant improvements in food security and agricultural resilience."
+            }
+          ]
+        }
+      },
+      {
+        "country": "Brazil",
+        "latitude": -14.2350,
+        "longitude": -51.9253,
+        "financial_contribution": {
+          "amount": "5 billion USD",
+          "year": 2023
+        },
+        "policy_initiatives": [
+          {
+            "initiative": "Amazon Fund",
+            "description": "A fund aimed at preventing deforestation in the Amazon rainforest.",
+            "impact": "Reduction in deforestation rates and improved conservation efforts."
+          }
+        ],
+        "sdg_progress": {
+          "SDG 13": "Climate Action",
+          "SDG 15": "Life on Land",
+          "details": [
+            {
+              "sdg": "SDG 13",
+              "progress": "Reduction in greenhouse gas emissions through reforestation projects."
+            },
+            {
+              "sdg": "SDG 15",
+              "progress": "Increased protection of biodiversity in the Amazon."
+            }
+          ]
+        }
+      },
+      {
+        "country": "India",
+        "latitude": 20.5937,
+        "longitude": 78.9629,
+        "financial_contribution": {
+          "amount": "8 billion USD",
+          "year": 2023
+        },
+        "policy_initiatives": [
+          {
+            "initiative": "Clean India Mission",
+            "description": "An initiative to improve sanitation and waste management.",
+            "impact": "Improved urban cleanliness and sanitation facilities."
+          }
+        ],
+        "sdg_progress": {
+          "SDG 6": "Clean Water and Sanitation",
+          "SDG 11": "Sustainable Cities and Communities",
+          "details": [
+            {
+              "sdg": "SDG 6",
+              "progress": "Increased access to clean drinking water and sanitation facilities."
+            },
+            {
+              "sdg": "SDG 11",
+              "progress": "Enhanced waste management and cleaner public spaces."
+            }
+          ]
+        }
+      },
+      {
+        "country": "Australia",
+        "latitude": -25.2744,
+        "longitude": 133.7751,
+        "financial_contribution": {
+          "amount": "3 billion USD",
+          "year": 2023
+        },
+        "policy_initiatives": [
+          {
+            "initiative": "Great Barrier Reef Restoration",
+            "description": "Efforts to restore and protect the Great Barrier Reef.",
+            "impact": "Improved coral health and marine biodiversity."
+          }
+        ],
+        "sdg_progress": {
+          "SDG 14": "Life Below Water",
+          "SDG 15": "Life on Land",
+          "details": [
+            {
+              "sdg": "SDG 14",
+              "progress": "Efforts to reduce coral bleaching and improve reef health."
+            },
+            {
+              "sdg": "SDG 15",
+              "progress": "Enhanced protection of terrestrial ecosystems."
+            }
+          ]
+        }
+      }
+    ]
+  }
