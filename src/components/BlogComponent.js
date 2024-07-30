@@ -1,26 +1,26 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Box = styled(motion.a)`
+  background-color: #eaf1b1;
   width: calc(10rem + 15vw);
   text-decoration: none;
   height: 20rem;
   padding: 1rem;
   color: ${(props) => props.theme.text};
-  border: 0.5px solid ${(props) => props.theme.body};
   backdrop-filter: blur(2px);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   cursor: pointer;
-
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   z-index: 5;
 
   &:hover {
     color: ${(props) => props.theme.body};
-    background-color: ${(props) => props.theme.text};
+    background-color: #728c5a;
     transition: all 0.3s ease;
   }
 `;
@@ -30,12 +30,9 @@ const Image = styled.div`
   width: 100%;
   height: 60%;
   background-size: cover;
-  border: 1px solid transparent;
   background-position: center center;
-
-  ${Box}:hover & {
-    border: 1px solid ${(props) => props.theme.body};
-  }
+  border: 0.1px white solid;
+  border-radius: 0.2rem;
 `;
 const Title = styled.h3`
   color: inherit;
@@ -81,7 +78,7 @@ const BlogComponent = (props) => {
       <Box target="_blank" href={`${link}`}>
         <Image img={imgSrc} />
         <Title>{name}</Title>
-    
+
         <Date>{date}</Date>
       </Box>
     </Container>
