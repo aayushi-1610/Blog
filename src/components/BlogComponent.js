@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const Box = styled(motion.a)`
   background-color: #eaf1b1;
-  width: calc(10rem + 15vw);
+  width: calc(7rem + 15vw);
   text-decoration: none;
   height: 20rem;
   padding: 1rem;

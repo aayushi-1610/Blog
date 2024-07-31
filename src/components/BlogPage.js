@@ -27,7 +27,7 @@ const Center = styled.div`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, minmax(calc(10rem + 15vw), 1fr));
-  grid-gap: 6rem;
+  grid-gap: 3rem;
 `;
 
 // Framer-motion config

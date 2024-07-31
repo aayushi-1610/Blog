@@ -274,7 +274,7 @@ export const Link = (props) => {
             strokeLinecap: "butt",
             strokeLinejoin: "miter",
             strokeMiterlimit: 10,
-            fill: "#339933",
+            fill: "#458c3a",
             fillRule: "nonzero",
             opacity: 1,
           }}
